@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Test app</title>
+  <script type="text/javascript">
+    window.onload = function(){
+      var info = document.getElementById("info");
+      info.innerHTML = "Node ver." + process.version + "<br>" + "atp, ver." + process.versions['electron'];
+
+    };
+  </script>
+</head>
+<body>
+  <h1>テストアプリです</h1>
+  <p id="info"></p>
+</body>
+</html>
